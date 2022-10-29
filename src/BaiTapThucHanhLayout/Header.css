@@ -1,0 +1,25 @@
+.header {
+  background-color: rgb(33, 37, 41);
+  opacity: 1;
+}
+.header__content {
+  width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.header__content .header__navigation h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.header__content .header__navigation a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.header__content .header__navigation .active {
+  color: #fff;
+}
